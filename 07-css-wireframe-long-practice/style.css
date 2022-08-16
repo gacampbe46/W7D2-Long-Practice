@@ -1,28 +1,84 @@
-.upper__right{
+.upper__right {
     display: inline;
-    margin-left: 60%;
+    /* margin-right: -50%; */
+    margin-right: auto;
+    margin-left: 80%;
 }
 
-.upper__left{
+.upper__left {
     box-sizing: border-box;
-    width : 30px;
-    height : 30px;
+    width: 30px;
+    height: 30px;
+
 }
 
-.sign-in{
+.sign-in {
     margin-right: 25px;
     color: rgba(37, 152, 22, 0.889);
 }
 
-.get-started{
+.get-started {
     color: rgba(37, 152, 22, 0.889);
     box-sizing: border-box;
-    width : 10px;
+    width: 10px;
     border: 1px solid rgba(37, 152, 22, 0.889);
     border-radius: 5px;
 }
 
-a{
+/* a {
     color: gray;
     text-decoration: none;
+
+} */
+
+.content {
+    text-align: left;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.nav__lower {
+    display: contents;
+    text-align: center;
+    margin-left: 24%;
+
+}
+
+
+.nav__lower>a {
+    padding: 50px;
+    color: grey;
+    text-decoration: none;
+}
+
+
+.footer__left {
+
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+}
+
+li>a {
+    color: blue;
+    text-decoration: none;
+}
+
+.grid>a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: auto;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.footer__right {
+    display: inline;
+    margin-left: 90%;
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
 }
